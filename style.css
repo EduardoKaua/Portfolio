@@ -1,0 +1,33 @@
+body {
+    background-color: silver;
+}
+
+h1 {
+ color: rgb(36, 80, 109);
+ text-align: center;
+}
+.Coisas {
+    color: rgb(19, 97, 122);
+    text-align: left;
+
+  }
+  .Me {
+    color: rgb(19, 193, 206);
+    position: relative ;
+    bottom:300px;
+    left: 900px;
+    border: 3px solid;
+    width: 3%;
+    background-color: gray ;
+    
+  }
+  .Sobre {
+    color: rgb(19, 97, 122);
+    text-align: left;
+    
+   }
+.Eduardo {
+ position: relative;
+ left: 950px;
+ bottom: 300px;
+}
