@@ -1,33 +1,60 @@
 body {
-    background-color: silver;
+    background-color: rgb(53, 42, 119);
+    border-radius: 40px;
+    border: 10px solid rgb(88, 56, 146)
 }
 
 h1 {
- color: rgb(36, 80, 109);
+ color: rgb(19, 193, 206);
  text-align: center;
 }
 .Coisas {
-    color: rgb(19, 97, 122);
+    color: rgb(19, 193, 206);
     text-align: left;
+    
 
   }
   .Me {
     color: rgb(19, 193, 206);
     position: relative ;
-    bottom:300px;
+    font-size: 40px;
+    bottom:350px;
     left: 900px;
-    border: 3px solid;
-    width: 3%;
-    background-color: gray ;
+    width: 6%;
+    background-color: rgb(10, 3, 99) ;
     
   }
   .Sobre {
-    color: rgb(19, 97, 122);
+    color: rgb(19, 193, 206);
     text-align: left;
     
    }
 .Eduardo {
  position: relative;
  left: 950px;
- bottom: 300px;
+ bottom: 380px;
+}
+h5 {
+  background-color: rgb(112, 46, 179);
+  background-size: 1px;
+}
+
+.link {
+  background-color: rgb(18, 54, 133);   
+  color: black;
+  font-size: 30px; 
+  position: absolute;
+  right: 600px;
+  bottom: 100px ;
+  border-radius: 10px;
+}
+
+.linka {
+  background-color: rgb(16, 52, 131);
+  color: black;
+  font-size: 30px;
+  position:absolute;
+  right: 250px;
+  bottom: 380px;
+
 }
