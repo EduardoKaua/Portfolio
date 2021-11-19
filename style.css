@@ -1,38 +1,34 @@
 body {
-    background-color: rgb(53, 42, 119);
-    border-radius: 40px;
-    border: 10px solid rgb(88, 56, 146)
+  background-color: rgb(53, 42, 119);
+  border-radius: 40px;
+  border: 10px solid rgb(88, 56, 146);
 }
 
 h1 {
- color: rgb(19, 193, 206);
- text-align: center;
+  color: rgb(19, 193, 206);
+  text-align: center;
 }
 .Coisas {
-    color: rgb(19, 193, 206);
-    text-align: left;
-    
-
-  }
-  .Me {
-    color: rgb(19, 193, 206);
-    position: relative ;
-    font-size: 40px;
-    bottom:350px;
-    left: 900px;
-    width: 6%;
-    background-color: rgb(10, 3, 99) ;
-    
-  }
-  .Sobre {
-    color: rgb(19, 193, 206);
-    text-align: left;
-    
-   }
+  color: rgb(19, 193, 206);
+  text-align: left;
+}
+.Me {
+  color: rgb(19, 193, 206);
+  position: relative;
+  font-size: 40px;
+  bottom: 350px;
+  left: 900px;
+  width: 6%;
+  background-color: rgb(10, 3, 99);
+}
+.Sobre {
+  color: rgb(19, 193, 206);
+  text-align: left;
+}
 .Eduardo {
- position: relative;
- left: 950px;
- bottom: 380px;
+  position: relative;
+  left: 950px;
+  bottom: 380px;
 }
 h5 {
   background-color: rgb(112, 46, 179);
@@ -40,21 +36,21 @@ h5 {
 }
 
 .link {
-  background-color: rgb(56, 91, 165);   
+  background-color: rgb(56, 91, 165);
   color: black;
-  font-size: 30px; 
+  font-size: 30px;
   position: absolute;
   right: 600px;
-  bottom: 100px ;
+  bottom: 100px;
   border-radius: 10px;
 }
 
 .linka {
   background-color: rgb(56, 91, 165);
-  color: black;
+  border-radius: 9px;
+  color: rgb(26, 17, 17);
   font-size: 30px;
-  position:absolute;
-  right: 250px;
-  bottom: 380px;
-
+  position: absolute;
+  right: 112px;
+  bottom: 290px;
 }
