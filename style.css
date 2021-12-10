@@ -28,7 +28,9 @@ h1 {
 .Eduardo {
   position: relative;
   left: 950px;
-  bottom: 380px;
+  bottom: 400px;
+  border-radius: 100px;
+  border: solid rgb(16, 26, 117);
 }
 p {
   background-color: rgb(112, 46, 179);
@@ -70,5 +72,5 @@ ul li ul li a {
   display: block !important;
 }
 ul li ul li:hover {
-  background: rgb(102, 96, 96);
+  background: rgb(230, 230, 230);
 }
