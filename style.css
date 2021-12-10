@@ -1,3 +1,7 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 body {
   background-color: rgb(53, 42, 119);
   border-radius: 40px;
@@ -33,8 +37,9 @@ h1 {
   border: solid rgb(16, 26, 117);
 }
 p {
+  color: black;
+  font-size: 18px;
   background-color: rgb(112, 46, 179);
-  background-size: 1px;
 }
 .ola {
   text-decoration: none;
@@ -73,4 +78,9 @@ ul li ul li a {
 }
 ul li ul li:hover {
   background: rgb(230, 230, 230);
+}
+#linke {
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
 }
