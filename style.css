@@ -20,7 +20,7 @@ h1 {
   color: rgb(19, 193, 206);
   position: relative;
   font-size: 40px;
-  bottom: 350px;
+  bottom: 500px;
   left: 900px;
   width: 6%;
   background-color: rgb(10, 3, 99);
@@ -32,7 +32,7 @@ h1 {
 .Eduardo {
   position: relative;
   left: 950px;
-  bottom: 400px;
+  bottom: 540px;
   border-radius: 100px;
   border: solid rgb(16, 26, 117);
 }
