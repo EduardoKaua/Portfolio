@@ -3,7 +3,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body {
-  background-image: linear-gradient(50deg, rgb(58, 48, 202), rgb(65, 26, 138));
+  background-image: linear-gradient(50deg, rgb(102, 95, 212), rgb(60, 27, 122));
   border-radius: 40px;
   border: 10px solid rgb(88, 56, 146);
 }
@@ -80,7 +80,7 @@ ul li ul li:hover {
   background: rgb(230, 230, 230);
 }
 #linke {
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   text-decoration: underline;
 }
