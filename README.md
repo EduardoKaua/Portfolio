@@ -1,6 +1,8 @@
 # Portifolio
 
-Uma breve apresentação minha. (Desatualizado)
+Uma breve apresentação minha.
+
+Refazendo novo portifolio
 
 
 

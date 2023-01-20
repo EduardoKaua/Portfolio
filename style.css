@@ -1,19 +1,155 @@
-
-* {
-  margin: 0;
-  padding: 0;
+*{
   box-sizing: border-box;
-  place-items: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-  overflow: hidden;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+background: linear-gradient(90deg, rgb(9, 9, 9) 0%, rgb(36, 36, 37) 35%, rgb(16, 16, 15) 100%);
+overflow: hidden;
+}
+
+.name {
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+p {
+  font-size: 3vh;
+  
+}
+
+.line{
+  border-right: 2px solid rgba(255,255,255, 0.75);
+ font-size: 3vh;
+ white-space: nowrap;
+ overflow: hidden;
+}
+button{
+  font-family:'Courier New', Courier, monospace;
+  position: absolute;
+  bottom: 38%;
+  left: 23%;
+  padding-left:60px;
+  padding-right:60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;  
+  
+}
+
+.box div{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 6px solid rgba(255,255,255,0.8);
+}
+.box div:nth-child(1){
+  top: 12%;
+  left: 42%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+}
+.box div:nth-child(3){
+  top: 17%;
+  left: 6%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(4){
+  top: 20%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5){
+  top: 67%;
+  left: 10%;
+  animation: animate 6s linear infinite;
+}
+.box div:nth-child(6){
+  top: 80%;
+  left: 70%;
+  animation: animate 12s linear infinite;
+}
+.box div:nth-child(7){
+  top: 60%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+.box div:nth-child(8){
+  top: 32%;
+  left: 25%;
+  animation: animate 16s linear infinite;
+}
+.box div:nth-child(9){
+  top: 90%;
+  left: 25%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(10){
+  top: 20%;
+  left: 80%;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.3) translateY(-90px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+
+.typing-animation {
+  animation: blinkCursor 500ms infinite normal, typing 4s 1s normal;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 42vh;
+  }
+  
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(255,255,255, 0.75)
+  }
+  to{
+    border-right-color:transparent;
+  }
 }
 
 
@@ -28,34 +164,31 @@ navbar {
   margin-bottom: 100%;
 }
 
-navbar .logo {
-  position: relative;
-  left: 40px;
-  width: 50%;
-}
 
-navbar .logo img{
-  width: 90px;
-  border-radius: 40%;
-}
+
 navbar .menu ul{
   display: flex;
+  position: relative;
+  left: 80%;
+
 }
 navbar .menu ul li{
   padding: 0 23px;
   list-style: none;
+  
 }
 navbar .menu ul li a{
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  transition: 0.5s ease;
+  transition: 0.2s ease;
   right: 40px;
   transition-delay: 0.1s;
+
 }
 navbar .menu ul li a:hover{
-  color: #72b7f7;
+  color: #0caa5b;
   text-decoration: underline;
   transition-delay: 0.1s;
 }
@@ -65,3 +198,7 @@ navbar .menu-mobile{
 navbar .btn-mobile{
   display: none;
 }
+
+
+
+
