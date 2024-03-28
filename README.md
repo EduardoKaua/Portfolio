@@ -2,7 +2,7 @@
 
 Uma breve apresentação minha.
 
-Refazendo novo portifolio
+Refazendo novo portfolio
 
 
 
